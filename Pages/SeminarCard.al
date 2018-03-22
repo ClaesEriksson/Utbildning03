@@ -2,7 +2,7 @@ page 123456702 "Seminar Card"
 {
     PageType = Card;
     SourceTable = Seminar;
-    UsageCategory = Tasks;
+    //UsageCategory = Tasks;
 
     layout
     {
