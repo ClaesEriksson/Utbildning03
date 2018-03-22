@@ -31,11 +31,11 @@ table 123456702 Seminar
             Caption = 'Seminar Duration';
             DecimalPlaces = 0 : 1;
         }
-        field(40; " Minimum Participants "; Decimal)
+        field(40; "Minimum Participants"; Decimal)
         {
-            Caption = ' Minimum Participants ';
+            Caption = 'Minimum Participants';
         }
-        field(50; " Maximum Participants "; Integer)
+        field(50; "Maximum Participants"; Integer)
         {
             Caption = 'Maximum Participants';
         }
