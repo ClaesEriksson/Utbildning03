@@ -58,8 +58,13 @@ page 123456710 "Seminar Registration"
                 {
                 }
             }
-            group("Seminar Room")
+                group("Seminar Room")
             {
+            part(SeminarRegistrationLines; "Seminar Registration Subpage")
+            {
+                Caption = 'Lines';
+                SubPageLink = "Document No." = field ("No.");
+            }
                 field("Room Resource Code";"Room Code")
                 {
                 }
