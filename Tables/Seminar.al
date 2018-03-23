@@ -57,8 +57,8 @@ table 123456702 Seminar
             Caption = 'Comment';
             Editable = false;
             FieldClass = FlowField;
-            CalcFormula = exist ("Comment Line"
-                where ("Table Name" = const (123456701),
+            CalcFormula = exist ("Seminar Comment Line"
+                where ("Table Name" = const ("Seminar Registration Header"),
                                  "No." = Field ("No.")));
         }
         field(100; "Seminar Price"; Decimal)
